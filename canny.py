@@ -12,7 +12,7 @@ def showImg(row, col, img,label):
         plt.yticks([])
     plt.show()
 
-img = cv2.imread('lena.jpg')
+img = cv2.imread('fruit_basket.jpeg')
 im = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 #Noise Reduction
@@ -111,8 +111,3 @@ label_nms = ['Non-Maxium Suppression', 'Double Thresholding']
 img_canny = [hyst, canny]
 label_canny = ['Hysteresis','Built-In Canny']
 showImg(1,2,img_canny,label_canny)
-
-#source:
-#https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123
-#https://github.com/MadhavEsDios/Canny-Edge-Detector/blob/master/Canny%20Edge%20Detector.ipynb
-#http://justin-liang.com/tutorials/canny/
