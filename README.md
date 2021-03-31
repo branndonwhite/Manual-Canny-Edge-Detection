@@ -15,8 +15,3 @@ The Canny edge detection algorithm is composed of 5 steps:
 3. Non-maximum suppression;
 4. Double threshold;
 5. Edge Tracking by Hysteresis.
-
-## How to Run It
-### From VS Code
-
-### From Python Editor
